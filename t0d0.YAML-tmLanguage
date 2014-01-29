@@ -1,0 +1,15 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+# t0d0 syntax for SublimeText 2/3 by metalelf0
+---
+name: sublime-t0d0
+scopeName: text.sublime-t0d0
+fileTypes: ["t0d0"]
+uuid: e518a6fc-eee1-4e22-93f7-8d13f9d505f3
+
+patterns:
+- "match": '^([\t\s-]*)(\[)(X+)(\]).*$'
+  "name": "variable.language.completed_todo"
+- "match": '^([\t\s-]*)(\[)(X*)(\.+)(\]).*$'
+  "name": "keyword.in_progress_todo"
+- "match": '^([\t\s-]*)(\[)(\s+)(\]).*$'
+  "name": "constant.other.new_todo"

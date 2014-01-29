@@ -1,0 +1,14 @@
+[X] Done
+[.] In progress
+[ ] Todo
+
+>> Plain text
+- [X] Done
+- [.] In progress
+- [ ] Todo
+
+[.] This is an in-progress todo item
+  [X] This is a completed todo item
+  [X.] This todo item had been marked as completed, then reopened
+  [ ] And this is a new todo item
+  - [ ] This one works too, if you prefer the original orgmode syntax

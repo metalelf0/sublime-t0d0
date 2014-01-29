@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>t0d0</string>
+	</array>
+	<key>name</key>
+	<string>sublime-t0d0</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^([\t\s-]*)(\[)(X+)(\]).*$</string>
+			<key>name</key>
+			<string>variable.language.completed_todo</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^([\t\s-]*)(\[)(X*)(\.+)(\]).*$</string>
+			<key>name</key>
+			<string>keyword.in_progress_todo</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^([\t\s-]*)(\[)(\s+)(\]).*$</string>
+			<key>name</key>
+			<string>constant.other.new_todo</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.sublime-t0d0</string>
+	<key>uuid</key>
+	<string>e518a6fc-eee1-4e22-93f7-8d13f9d505f3</string>
+</dict>
+</plist>
