@@ -8,6 +8,8 @@ Here's a screenshot of it in action, using the Solarized color scheme.
 
 <img src="https://raw.github.com/metalelf0/sublime-t0d0/master/screenshot.png">
 
-## How to install
+## How to install (via Package Control)
 
-- copy the t0d0.tmLanguage file to your `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User` folder.
+- (Cmd / Ctrl) + Shift + P → Package Control: Add Repository → https://github.com/metalelf0/sublime-t0d0
+
+- (Cmd / Ctrl) + Shift + P → Package Control: Install Package → sublime-t0d0
